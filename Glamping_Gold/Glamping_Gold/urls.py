@@ -23,6 +23,7 @@ urlpatterns = [
     path('recuperar-contraseña/', views.recuperar_contraseña, name='recuperar_contraseña'),
     path('reservas/<int:pk>/pdf/', PagosPDFView.as_view(), name='pagos_pdf'),
     path('reporte_pagos/', ReportePagos.as_view(), name='reporte_pagos'),
+    path('ayuda/', views.ayuda, name='ayuda')
     
     
 
