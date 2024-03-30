@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+
+{% block title %}Glamping Gold{% endblock %}
+
+{% block content %}
+
+
+
+<div class="container">
+    <h3 class=" text-center ">Menu de ayuda</h3>
+    <hr>
+    <h3 class="  ">Haz clic en una de las opciones para descubrir sus diversas funciones; al seleccionar una, se te mostrará un video explicativo.</h3>
+    <div class="row ms-10 mt-7" style="display: flex; flex-direction: column; margin-left: 40%;">
+      <div class="col-lg-4 col-md-6">
+        <div class="btn-group" >
+          <!-- Primer botón -->
+          <a class="nav-link mb-6" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" >
+            <div class="card-body">
+                <i class="fas fa-fw fa-user fa-5x" style="margin-bottom: 20px;" width="70%"></i>
+              <p class="card-text">Clientes</p>
+            </div>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item bg-dark text-light">MENU</div>
+            <a class="dropdown-item" href="#tab2Id">Crear</a>
+            <a class="dropdown-item" href="#tab3Id">Editar</a>
+            <a class="dropdown-item" href="#tab4Id">Eliminar</a>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="btn-group">
+            <!-- Segundo botón -->
+                <a class="nav-link mb-6" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="card-body">
+                        <i class="fas fa-fw fa-table fa-5x" style="margin-bottom: 20px;"></i>
+                        <p class="card-text">Servicios</p>
+                    </div>
+                </a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item bg-dark text-light">MENU</div>
+                    <a class="dropdown-item" href="#tab2Id">Crear</a>
+                    <a class="dropdown-item" href="#tab3Id">Editar</a>
+                    <a class="dropdown-item" href="#tab4Id">Eliminar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="btn-group">
+                <a class="nav-link mb-6" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="card-body">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-houses-fill" viewBox="0 0 16 16" style="margin-bottom: 20px;">
+                            <path d="M7.207 1a1 1 0 0 0-1.414 0L.146 6.646a.5.5 0 0 0 .708.708L1 7.207V12.5A1.5 1.5 0 0 0 2.5 14h.55a2.5 2.5 0 0 1-.05-.5V9.415a1.5 1.5 0 0 1-.56-2.475l5.353-5.354z"/>
+                            <path d="M8.793 2a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708z"/>
+                          </svg>
+                        <p class="card-text">Tipo Cabañas</p>
+                    </div>
+                </a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item bg-dark text-light">MENU</div>
+                    <a class="dropdown-item" href="#tab2Id">Crear</a>
+                    <a class="dropdown-item" href="#tab3Id">Editar</a>
+                    <a class="dropdown-item" href="#tab4Id">Eliminar</a>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <div class="col-lg-4 col-md-6">
+            <div class="btn-group">
+                <a class="nav-link mb-6" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="card-body">
+                        <i class="fa fa-bed text-primary fa-5x" style="margin-bottom: 20px;"></i>
+                        <p class="card-text">Reservas</p>
+                    </div>
+                </a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item bg-dark text-light">MENU</div>
+                    <a class="dropdown-item" href="#tab2Id">Crear</a>
+                    <a class="dropdown-item" href="#tab3Id">Editar</a>
+                    <a class="dropdown-item" href="#tab4Id">Eliminar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="btn-group">
+                <a class="nav-link mb-6" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="card-body">
+                        <i class="fas fa-credit-card fa-5x" style="margin-bottom: 20px;"></i>
+                        <p class="card-text">Pagos</p>
+                    </div>
+                </a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item bg-dark text-light">MENU</div>
+                    <a class="dropdown-item" href="#tab2Id">Crear</a>
+                    <a class="dropdown-item" href="#tab3Id">Editar</a>
+                    <a class="dropdown-item" href="#tab4Id">Eliminar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="btn-group">
+                <a class="nav-link mb-6" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <div class="card-body">
+                        <i class="fa fa-home fa-fw fa-5x" style="margin-bottom: 20px;"></i>
+                        <p class="card-text">Cabañas</p>
+                    </div>
+                </a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item bg-dark text-light">MENU</div>
+                    <a class="dropdown-item" href="#tab2Id">Crear</a>
+                    <a class="dropdown-item" href="#tab3Id">Editar</a>
+                    <a class="dropdown-item" href="#tab4Id">Eliminar</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>c
+
+    
+    
+
+
+
+  
+{% endblock %}

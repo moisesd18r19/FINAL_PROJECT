@@ -281,3 +281,6 @@ class ReportePagos(View):
             message = "Ha ocurrido un error al generar el reporte. Intente nuevamente más tarde."
             return HttpResponse(message, status=500)
 
+
+def ayuda(request):
+    return render (request, 'ayuda.html')
