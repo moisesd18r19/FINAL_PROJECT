@@ -23,12 +23,9 @@ urlpatterns = [
     path('recuperar-contraseña/', views.recuperar_contraseña, name='recuperar_contraseña'),
     path('reservas/<int:pk>/pdf/', PagosPDFView.as_view(), name='pagos_pdf'),
     path('reporte_pagos/', ReportePagos.as_view(), name='reporte_pagos'),
-<<<<<<< HEAD
     path('forgot-password/', views.login, name='recover_password'),
-=======
     path('ayuda/', views.ayuda, name='ayuda')
     
->>>>>>> 73cbd794a575645f23e6d5a27eaa8b1756a9b03a
     
 
     
